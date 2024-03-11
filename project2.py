@@ -290,7 +290,7 @@ e_color = (0,255,0)
 
 while True:
     startx = int(input("Start Point - Enter x: "))
-    starty = int(input("Start Point - Enter y "))
+    starty = int(input("Start Point - Enter y: "))
     try:
         if obstacle_space[startx, starty] == -1:
             print("Start pose is in Obstacle Space!")
