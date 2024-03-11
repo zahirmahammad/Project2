@@ -1,3 +1,4 @@
+# Github -> https://github.com/zahirmahammad/Project2.git
 import numpy as np
 import pygame
 import heapq
@@ -6,8 +7,8 @@ import time
 # ------------------Obstacle Space Creation-----------------------------------
 
 # Initializing Color
-# color = (228,155,15)
-color = (255,0,0)
+bcolor = (20,90,50)  
+color = (156,74,0)
 
 bloat=5
 
@@ -298,6 +299,8 @@ pygame.init()
 # Initializing env
 env = pygame.display.set_mode((1200,500))
 
+env.fill(bcolor)
+
 # ---Draw obstacle space---
 for i in range(obstacle_space.shape[0]):
     for j in range(obstacle_space.shape[1]):
@@ -315,7 +318,7 @@ pygame.draw.circle(env, e_color, end, 3)
 
 # -- Draw states Explored---
 for i, node in enumerate(closed_list):
-    env.set_at(node[1], (0, 0, 255))
+    env.set_at(node[1], (10, 13, 235))
     if i % update_interval == 0:
         pygame.display.flip()  # Update display periodically
         pygame.time.Clock().tick(60)
