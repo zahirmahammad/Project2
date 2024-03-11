@@ -262,7 +262,7 @@ while True:
             print("Start pose - in Obstacle Space!")
             print("Please select a pose that is not in Obstacle Space")
         else:
-            start = (startx, 500-starty)
+            start = (startx, 499-starty)
             break
     except:
         print("Enter values given in the range")
@@ -275,7 +275,7 @@ while True:
             print("End pose - in Obstacle Space!")
             print("Please select a pose that is not in Obstacle Space")
         else:
-            end = (endx, 500-endy)
+            end = (endx, 499-endy)
             break
     except:
         print("Enter values given in the range")
