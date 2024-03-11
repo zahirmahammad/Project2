@@ -1,4 +1,4 @@
-## Dijkstra Algorithm
+## Dijkstra Algorithm - Path Planning [Pygame]
 
 Python Libraries used - numpy, pygame, heapq, time
 
