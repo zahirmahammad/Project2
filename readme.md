@@ -1,3 +1,5 @@
+Course: ENPM661 - Planning for Autonomous Robots
+
 ## Dijkstra Algorithm - Path Planning [Pygame]
 
 Python Libraries used - numpy, pygame, heapq, time
